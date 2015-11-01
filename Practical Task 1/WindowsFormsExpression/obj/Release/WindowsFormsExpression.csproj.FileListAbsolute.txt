@@ -1,0 +1,25 @@
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\bin\Release\WindowsFormsExpression.exe.config
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\bin\Release\WindowsFormsExpression.exe
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\bin\Release\WindowsFormsExpression.pdb
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\bin\Release\MyTools.dll
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\bin\Release\MyTools.pdb
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.csprojResolveAssemblyReference.cache
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.MainForm.resources
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.Properties.Resources.resources
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.csproj.GenerateResource.Cache
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.exe
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.pdb
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 1\WindowsFormsExpression\bin\Release\WindowsFormsExpression.exe.config
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.exe
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.pdb
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\bin\Release\WindowsFormsExpression.exe.config
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.exe
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.pdb
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\bin\Release\WindowsFormsExpression.exe
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\bin\Release\WindowsFormsExpression.pdb
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\bin\Release\MyTools.dll
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\bin\Release\MyTools.pdb
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.csprojResolveAssemblyReference.cache
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.MainForm.resources
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.Properties.Resources.resources
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 1\WindowsFormsExpression\obj\Release\WindowsFormsExpression.csproj.GenerateResource.Cache
