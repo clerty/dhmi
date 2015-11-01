@@ -1,0 +1,24 @@
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ConsoleExpression\bin\Release\ConsoleExpression.exe.config
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ConsoleExpression\bin\Release\ConsoleExpression.exe
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ConsoleExpression\bin\Release\ConsoleExpression.pdb
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ConsoleExpression\bin\Release\MyTools.dll
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ConsoleExpression\bin\Release\MyTools.pdb
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ConsoleExpression\obj\Release\ConsoleExpression.csprojResolveAssemblyReference.cache
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ConsoleExpression\obj\Release\ConsoleExpression.exe
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ConsoleExpression\obj\Release\ConsoleExpression.pdb
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 2\ConsoleExpression\bin\Release\ConsoleExpression.exe.config
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 2\ConsoleExpression\bin\Release\ConsoleExpression.exe
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 2\ConsoleExpression\bin\Release\ConsoleExpression.pdb
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 2\ConsoleExpression\bin\Release\MyTools.dll
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 2\ConsoleExpression\bin\Release\MyTools.pdb
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 2\ConsoleExpression\obj\Release\ConsoleExpression.csprojResolveAssemblyReference.cache
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 2\ConsoleExpression\obj\Release\ConsoleExpression.exe
+C:\Users\Павел\Documents\Visual Studio 2013\Projects\Practical Task 2\ConsoleExpression\obj\Release\ConsoleExpression.pdb
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 2\ConsoleExpression\bin\Release\ConsoleExpression.exe.config
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 2\ConsoleExpression\obj\Release\ConsoleExpression.exe
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 2\ConsoleExpression\obj\Release\ConsoleExpression.pdb
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 2\ConsoleExpression\bin\Release\ConsoleExpression.exe
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 2\ConsoleExpression\bin\Release\ConsoleExpression.pdb
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 2\ConsoleExpression\bin\Release\MyTools.dll
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 2\ConsoleExpression\bin\Release\MyTools.pdb
+C:\Users\Павел\Documents\GitHub\dhmi\Practical Task 2\ConsoleExpression\obj\Release\ConsoleExpression.csprojResolveAssemblyReference.cache
