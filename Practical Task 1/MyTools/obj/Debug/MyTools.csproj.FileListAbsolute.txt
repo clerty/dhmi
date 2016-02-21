@@ -1,4 +1,0 @@
-C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\MyTools.dll
-C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\MyTools.pdb
-C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\MyTools.dll
-C:\Users\Павел\Documents\Visual Studio 2013\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\MyTools.pdb
