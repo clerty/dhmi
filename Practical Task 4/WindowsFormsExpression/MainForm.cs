@@ -10,26 +10,24 @@ using System.Windows.Forms;
 
 namespace WindowsFormsExpression
 {
-    public partial class TernaryForm : Form
+    public partial class MainForm : Form
     {
-        int i = 0;
-        public TernaryForm(int i)
+        public MainForm()
         {
             InitializeComponent();
-            this.i = i;
         }
+
         private void calc_Click(object sender, EventArgs e)
         {
             try
             {
                 double a = Convert.ToDouble(aField.Text);
                 double x = Convert.ToDouble(xField.Text);
-                double y = Convert.ToDouble(xField.Text);
-                zField.Text = Convert.ToString(MyTools.ArithmeticExpressions.ternaryExpressions[i - 1](x, y, a));
+                yField.Text = Convert.ToString(MyTools.ArithmeticExpressions.Expression1(x, a));
             }
             catch (FormatException)
             {
-                MessageBox.Show("Неверный формат входных данных, повторите ввод", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Введено не число, повторите ввод", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -47,14 +45,6 @@ namespace WindowsFormsExpression
         }
 
         private void xField_KeyUp(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                yField.Focus();
-            }
-        }
-
-        private void yField_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {

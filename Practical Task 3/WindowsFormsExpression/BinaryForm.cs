@@ -12,7 +12,7 @@ namespace WindowsFormsExpression
 {
     public partial class BinaryForm : Form
     {
-        int i;
+        int i = 0;
         public BinaryForm(int i)
         {
             InitializeComponent();

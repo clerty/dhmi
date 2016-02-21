@@ -71,7 +71,7 @@ namespace ConsoleExpression
             string devName = "Вартанов Павел";
             string devYear = "2";
             string devGroup = "09-411";
-            string settingInfo = "Реализовать диалоговое взаимодействие для поледовательного вычисления нескольких функций, построенное на основе конструкционной схемы ДВ \"Последовательная интерпретация элементов\".";
+            string settingInfo = "Реализовать диалоговое взаимодействие для поледовательного\nвычисления нескольких функций, построенное на основе конструкционной схемы ДВ\n\"Последовательная интерпретация элементов\".";
 
             string startMessage = "Начать работу?";
             string endMessage = "Закончить работу?";
@@ -103,7 +103,7 @@ namespace ConsoleExpression
                             CalcExpression(counter);
                             counter++;
                         }
-                    } while (calculateNext);
+                    } while (calculateNext & (counter <= 3));
                     start = false;
                 }
                 stop = ReadBool(endMessage);

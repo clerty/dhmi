@@ -36,7 +36,7 @@ namespace WindowsFormsExpression
             DialogResult resultStart, resultGroup, resultEnd;
 
             bool start, stop = false, calculateGroup, calculatenext = true;
-            Form mainform;
+            Form mainform = new Form();
             ChooseGroupForm chooseGroupForm;
             int counter = 1;
             int number = 0;
@@ -48,13 +48,21 @@ namespace WindowsFormsExpression
                 if (start)
                 {
                     chooseGroupForm = new ChooseGroupForm();
-                    chooseGroupForm.ShowDialog();
-                    number = chooseGroupForm.i;
+                    do
+                    {
+                        chooseGroupForm.ShowDialog();
+                        number = chooseGroupForm.i;
+                        switch (number)
+                        {
+                            case 1:
+                            case 2:
+                                break;
+                            default:
+                                MessageBox.Show("Ответ не принят, повторите ввод.", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                                break;
+                        }
+                    } while (number == 0);
                     chooseGroupForm.Close();
-                    if (number == 1)
-                        mainform = new BinaryForm(counter);
-                    else
-                        mainform = new TernaryForm(counter);
                     resultGroup = MessageBox.Show(groupMessage(number), groupCaption(number), buttons, MessageBoxIcon.Question);
                     calculateGroup = resultGroup == DialogResult.Yes;
                     if (calculateGroup)
@@ -65,6 +73,15 @@ namespace WindowsFormsExpression
                             calculatenext = resultStart == DialogResult.Yes;
                             if (calculatenext)
                             {
+                                switch (number)
+                                {
+                                    case 1:
+                                        mainform = new BinaryForm(counter);
+                                        break;
+                                    case 2:
+                                        mainform = new TernaryForm(counter);
+                                        break;
+                                }
                                 mainform.ShowDialog();
                                 counter++;
                             }
@@ -87,7 +104,7 @@ namespace WindowsFormsExpression
             string devName = "Вартанов Павел";
             string devYear = "2";
             string devGroup = "09-411";
-            string setting = "Реализовать диалоговое взаимодействие для альтернативного вычисления двух групп функций, построенное на основе кончтрукционной схемы ДВ \"if-then-else\".";
+            string setting = "Реализовать диалоговое взаимодействие для альтернативного вычисления двух групп функций, построенное на основе конструкционной схемы ДВ \"if-then-else\".";
 
             string info = "Выполняется Задание №" + taskNum + ".\nРазработчик: " + devName + ", " + devYear + " курс, группа " + devGroup + ".\nПостановка: " + setting;
             string infoCaption = "Приветствие";

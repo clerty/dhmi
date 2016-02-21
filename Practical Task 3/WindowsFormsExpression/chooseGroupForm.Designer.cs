@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.info = new System.Windows.Forms.Label();
-            this.group1 = new System.Windows.Forms.Button();
-            this.group2 = new System.Windows.Forms.Button();
+            this.group1 = new System.Windows.Forms.RadioButton();
+            this.group2 = new System.Windows.Forms.RadioButton();
+            this.next = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // info
@@ -45,29 +46,44 @@
             // 
             // group1
             // 
-            this.group1.Location = new System.Drawing.Point(1, 25);
+            this.group1.AutoSize = true;
+            this.group1.Location = new System.Drawing.Point(12, 25);
             this.group1.Name = "group1";
-            this.group1.Size = new System.Drawing.Size(282, 23);
+            this.group1.Size = new System.Drawing.Size(127, 17);
             this.group1.TabIndex = 1;
-            this.group1.Text = "1. Бинарные функции.";
+            this.group1.TabStop = true;
+            this.group1.Text = "Бинарные операции";
             this.group1.UseVisualStyleBackColor = true;
-            this.group1.Click += new System.EventHandler(this.group1_Click);
+            this.group1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // group2
             // 
-            this.group2.Location = new System.Drawing.Point(1, 54);
+            this.group2.AutoSize = true;
+            this.group2.Location = new System.Drawing.Point(12, 48);
             this.group2.Name = "group2";
-            this.group2.Size = new System.Drawing.Size(282, 23);
+            this.group2.Size = new System.Drawing.Size(133, 17);
             this.group2.TabIndex = 2;
-            this.group2.Text = "2. Тернарные функции";
+            this.group2.TabStop = true;
+            this.group2.Text = "Тернарные операции";
             this.group2.UseVisualStyleBackColor = true;
-            this.group2.Click += new System.EventHandler(this.group2_Click);
+            this.group2.CheckedChanged += new System.EventHandler(this.group2_CheckedChanged);
+            // 
+            // next
+            // 
+            this.next.Location = new System.Drawing.Point(197, 26);
+            this.next.Name = "next";
+            this.next.Size = new System.Drawing.Size(75, 39);
+            this.next.TabIndex = 3;
+            this.next.Text = "Далее";
+            this.next.UseVisualStyleBackColor = true;
+            this.next.Click += new System.EventHandler(this.next_Click);
             // 
             // ChooseGroupForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 84);
+            this.ClientSize = new System.Drawing.Size(284, 77);
+            this.Controls.Add(this.next);
             this.Controls.Add(this.group2);
             this.Controls.Add(this.group1);
             this.Controls.Add(this.info);
@@ -86,7 +102,8 @@
         #endregion
 
         private System.Windows.Forms.Label info;
-        private System.Windows.Forms.Button group1;
-        private System.Windows.Forms.Button group2;
+        private System.Windows.Forms.RadioButton group1;
+        private System.Windows.Forms.RadioButton group2;
+        private System.Windows.Forms.Button next;
     }
 }

@@ -169,7 +169,7 @@ namespace ConsoleExpression
             string devName = "Вартанов Павел";
             string devYear = "2";
             string devGroup = "09-411";
-            string settingInfo = "Реализовать диалоговое взаимодействие для альтернативного вычисления двух групп функций, построенное на основе кончтрукционной схемы ДВ \"if-then-else\".";
+            string settingInfo = "Реализовать диалоговое взаимодействие для альтернативного вычислениядвух групп функций, построенное на основе конструкционной схемы ДВ \"if-then-\nelse\".";
 
             string task = "Выполняется Задание №" + taskNum + ".";
             string developer = "Разработчик: " + devName + ", " + devYear + " курс, группа " + devGroup + ".";

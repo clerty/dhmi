@@ -12,7 +12,7 @@ namespace WindowsFormsExpression
 {
     public partial class ChooseGroupForm : Form
     {
-        int _i;
+        int _i = 0;
         public int i
         {
             get { return _i; }
@@ -22,17 +22,19 @@ namespace WindowsFormsExpression
             InitializeComponent();
         }
 
-        private void group1_Click(object sender, EventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             _i = 1;
-            this.Hide();
         }
 
-        private void group2_Click(object sender, EventArgs e)
+        private void group2_CheckedChanged(object sender, EventArgs e)
         {
             _i = 2;
-            this.Hide();
         }
 
+        private void next_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
