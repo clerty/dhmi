@@ -1,1 +1,0 @@
-# Designing human-machine interface
